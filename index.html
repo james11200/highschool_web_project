@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>見飢而行</title>
+    <title>ZONE</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link
@@ -72,33 +72,41 @@
 
       }
       p {
-        font-size: 2vw;
+        font-size: 3vw;
+        
       }
       /* img{
         max-width:100%; 
         height:auto;
       } */
       .section {
-        padding-top: 80px;
-        padding-bottom: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         min-height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
       }
       #welcome {
-        background-color: #661e2c;
-        color: #fff;
+        background-color: #fff;
+        color: #000;
       }
       #about {
-        background-color: #ebd6b8;
-      }
-      #publication {
-        background-color: #1c2b4a;
+        background-color: #000;
         color: #fff;
       }
-      #members {
-        background-color: #661e2c;
+      #cloth {
+        background-color: #fff;
+        color: #000;
+      }      
+      #pants {
+        background-color: #fff;
+        color: #000;
+      }
+      #merchandise {
+        background-color: #fff;
+        color: #000;
+
       }
       .template-line {
         font-style: italic;
@@ -144,8 +152,10 @@
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.min.js"></script>
     <!-- Top bar -->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-sm navbar-dark  fixed-top" style="background-color: #000 ">
       <div class="container-fluid">
+        <img src="./images/ZONE/黑底 logo.png" style="max-height: 60px;  max-width: 100%;overflow: hidden; ">
+
         <button
           class="navbar-toggler"
           type="button"
@@ -160,16 +170,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="#welcome">首頁</a>
+              <a class="nav-link active" href="#welcome">ZONE</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">商業分析</a>
+              <a class="nav-link" href="#about">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#publication">產學合作</a>
+              <a class="nav-link" href="#cloth">上衣</a>
+            </li>            
+            <li class="nav-item">
+              <a class="nav-link" href="#pants">褲子</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#members">周邊商品</a>
+              <a class="nav-link" href="#merchandise">周邊</a>
             </li>
           </ul>
         </div>
@@ -178,33 +191,29 @@
 
     <!-- Welcome section -->
     <section id="welcome" class="section text-white" >
-      <div class="container" style="            width: 50%; /* Set your desired width */
-      height: auto; /* Set your desired height */
+      <div class="container" style="width: 50%; height: auto; 
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);">           
           <div class="row">
-            <div class="col-md-6">
+            <!-- <div class="col-md-6">
               <img src="./images/LOGO1.png"
               style="width: 110%; height: auto;     float: right;          "
               class="text-center;"
               >
-            </div>
+            </div> -->
 
             <div class="col-md-6">
               <br/>
               <br/>
               <br/>
-              <h1 >消除飢餓</h1>
-              <p >讓我們一起消除飢餓</p>
-                <a href="https://instagram.com/jjex_01?igshid=MzRlODBiNWFlZA==">
+                <a href="https://www.instagram.com/zone_myvibe?igsh=MzZpN28wbW9ncWt0">
                     <button class="btn btn-link" >
                       <img
-                      src="./images/ig.png" 
+                      src="./images/ZONE/圓圈白底 logo.png" 
                       style="width: 100%; height: auto"              
-                      href="
-                      https://instagram.com/jjex_01?igshid=MzRlODBiNWFlZA=="
+                      href="https://www.instagram.com/zone_myvibe?igsh=MzZpN28wbW9ncWt0"
                       >
                   </button>
                 </a>
@@ -213,61 +222,105 @@
 
       </div>
     </section>
-    
+
     <!-- About section -->
-    <section id="about" class="section">
-      <div class="container">
-        <h1 class="text-center" style="font-family: Brush Script MT, Brush Script Std, cursive">商業分析</h1>
-        <br/>
-        <p>          修改在這裡   </p>
-        <img src="./images/IMG_4654.JPG" style="max-width:100%; height:auto;">
-        <img src="./images/IMG_4655.JPG" style="max-width:100%; height:auto;">
-          
+    <section id="about" class="section">     
+      <div class="container" >
+        <h1 class="text-center">About us</h1>
+        <div class="col" style="padding-left: 35%">
+          <p>
+            Hit🔥<br>
+            最強高端份子<br>
+            你（妳）最後服裝空間🩸<br>
+            潮流服飾.飾品🔥<br>
+            需備貨約14-20個工作天<br>
+            請耐心等待🙇‍♂️🙇‍♀️<br>
+        </div>   
+        <div class="col" style="padding-left: 25%">
+
+                  <a href="https://www.facebook.com" >
+                    <button class="btn btn-link" >
+                    <img
+                    src="icon/facebook.png" alt="fb"
+                    style="width: 50px; height: 50px"              >
+                  </button>
+                  </a>
+
+                  <a href="https://shopee.tw/young3388?tab=shop" >
+                    <button  class="btn btn-link" >
+                    <img src="icon/icons8-shopee-48.png" alt="Shopee">
+                    </button>
+                  </a>
+
+                  <a href="https://www.instagram.com/zone_myvibe?igsh=MzZpN28wbW9ncWt0">
+                      <button class="btn btn-link" >
+                        <img
+                        src="icon/instagram.png" 
+                        style="width: 50px; height: 50px"              
+                        href="https://www.instagram.com/ccmelodyacg"
+                        >
+                    </button>
+                  </a>
+                </div>   
+      </div>
+    </section>
+
+    <!-- Cloth section -->
+    <section id="cloth" class="section">
+      <div class="container" style="margin: auto;  ">
+        <h1 class="text-center"> 上衣</h1>
+        <!-- <h1 class="text-center" style="font-family: Brush Script MT, Brush Script Std, cursive">上衣</h1> -->
+          <div class="col text-center">
+            <img class="text-center" src="./images/white_cloth.jpg" style="max-width:50%; height:auto;margin: auto; ">          
+            <p> </p>            
+            <img class="text-center" src="./images/cloths-1024x1024.jpg" style="max-width:50%; height:auto;margin: auto; ">          
+          </div>
         </div>
     </section>
 
-    <!-- Publication section -->
-    <section id="publication" class="section" >
+    <!-- pants section -->
+    <section id="pants" class="section" >
       <link rel="stylesheet" href="./style.css">
 
       <div class="container" >
-        <h1 class="text-center">產學合作</h1>
-
-          <div class="slider-btns">
-            <!-- <span id="prev-btn"><i class="fa-solid fa-chevron-left"></i></span> -->
-            <!-- <span id="next-btn"><i class="fa-solid fa-angle-right"></i></span> -->
-          </div>
-          <div class="slider-wrapper">
-            <div class="dots">
-              <div class="dot"></div>
-              <div class="dot"></div>
-              <div class="dot"></div>
-            </div>
-            
-            <div class="slides">
-              <img src="./images/IMG_4650.JPG"  style="max-width:100%; height:100%;" >
-            </div>
-            <div class="slides">
-              <img src="./images/IMG_4652.jpg"  style="max-width:100%; height:100%;" >
-            </div>
-            <div class="slides">
-              <img src="./images/IMG_4653.JPG"  style="max-width:100%; height:100%;" >
-            </div>
-          </div>
+        <h1 class="text-center">褲子</h1>
+            <div class="row">
+              <!-- Column 1 -->
+              <div class="col-md-4 custom-column">
+              <img src="./images/white_cloth.jpg"  style="max-width:100%; height:100%;" >
+              </div>
+              <!-- Column 2 -->
+              <div class="col-md-4 custom-column">
+                <img src="./images/cloths-1024x1024.jpg"  style="max-width:100%; height:100%;" >
+              </div>
+              <!-- Column 3 -->
+              <div class="col-md-4 custom-column">
+                <img src="./images/2cloths.jpg"  style="max-width:100%; height:100%;" >
+              </div>
       </div>      
       <script src="./script.js"></script>
 
     </section>
 
-    <!-- Members section -->
-    <section id="members" class="section">     
-      <div class="container" >
-        <h1 class="text-center">周邊商品</h1>
-        <img src="./images/周邊設計1.jpg" style="width:100%; height:auto;">
-        <img src="./images/周邊設計2.jpg" style="width:100%; height:auto;">
-        <img src="./images/周邊設計3.jpg" style="width:100%; height:auto;">
+    <!-- merchandise section -->
+    <section id="merchandise" class="section">     
+      <div class="col text-center">
+        <h1 class="text-center">周邊</h1>
+
+        <img class="text-center" src="./images/necklace.png" style="max-width:50%; height:auto;margin: auto;">
+        <img class="text-center" src="./images/all-inclusive.png" style="max-width:50%; height:auto;margin: auto;">
+        <img class="text-center" src="./images/man.png" style="max-width:50%; height:auto;margin: auto;">
       </div>
     </section>
+    
+      <div class="container mg-dark text-white" >
+        <p></p>
+        <p style="font-size: 2vw;"> Address: No. 75-1, Ln. 187, Sec. 1, Dunhua S. Rd., Da’an Dist., Taipei City <br/>
+          MON-FRI:15:00-22:00<br/>
+          SAT-SUN:14:00-22:00
+        </p>
+
+      </div>
 
       
       <script>
